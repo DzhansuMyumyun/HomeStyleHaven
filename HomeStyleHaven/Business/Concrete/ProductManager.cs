@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
@@ -24,6 +25,17 @@ namespace Business.Concrete
             this._productDal = product;
         }
 
+        public IResult Add(Product product)
+        {
+            if (product.ProductName.Length < 2)
+            {
+                return new ErrorResult("The product isn't added");
+            }
+
+            _productDal.Add(product);
+            return new SuccessResult("The product is added");
+        }
+
         public List<Product> GetAll()
         {
            return  _productDal.GetAll();
@@ -37,6 +49,11 @@ namespace Business.Concrete
         public List<Product> GetAllByUnitPrice(decimal min, decimal max)
         {
             return _productDal.GetAll(p => p.UnitPrice <= min && p.UnitPrice <= max);
+        }
+
+        public Product GetById(int productId)
+        {
+            return _productDal.Get(p => p.ProductId ==  productId);
         }
 
         public List<ProductDetailDto> GetProductDetails()
