@@ -1696,8 +1696,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "DataAccess": "1.0.0",
-          "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.16"
         },
         "compile": {
@@ -5875,8 +5873,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Core >= 1.0.0",
-      "Entities >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.16"
+      "Entities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5933,12 +5930,6 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": {
-            "target": "Package",
-            "version": "[3.1.16, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",
@@ -5958,16 +5949,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  DataAccess -> Core -> DataAccess.",
-      "libraryId": "DataAccess",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

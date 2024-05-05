@@ -2,20 +2,20 @@
 using Business.Concrete;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.InMemory;
-using Entities.Concrete;
 using Microsoft.IdentityModel.Tokens;
 
 
 //SOLID
 //Open Closed Principle
+//IoC
 
 // Code to get all product names
-//ProductManager productManager = new ProductManager(new EfProductDal());
+ProductManager productManager = new ProductManager(new EfProductDal());
 
-//foreach (var product in productManager.GetAll())
-//{
-//    Console.WriteLine(product.ProductName);
-//}
+foreach (var product in productManager.GetProductDetails())
+{
+    Console.WriteLine(product.ProductName);
+}
 
 
 //foreach (var product in productManager.GetAllByCategory(1))
@@ -23,10 +23,11 @@ using Microsoft.IdentityModel.Tokens;
 //    Console.WriteLine(product.ProductName);
 //}
 
-CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
-foreach (var category in categoryManager.GetAll())
-{
-    Console.WriteLine(category.CategoryName);
-}
 
-    
+//CategoryManager categoryManager = new CategoryManager(new EfCategoryDal());
+//foreach (var category in categoryManager.GetAll())
+//{
+//    Console.WriteLine(category.CategoryName);
+//}
+
+

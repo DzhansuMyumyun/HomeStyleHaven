@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete.EntityFramework
 {
-    public class Order : EfEntityRepositoryBase<Customer, HomeStyleHavenContext>, ICustomerDal
+    public class EfOrderDal : EfEntityRepositoryBase<Order, HomeStyleHavenContext>, IOrderDal
     {
     }
 }

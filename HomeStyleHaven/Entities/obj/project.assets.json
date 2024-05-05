@@ -1696,8 +1696,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "DataAccess": "1.0.0",
-          "Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.16"
         },
         "compile": {
@@ -1705,21 +1703,6 @@
         },
         "runtime": {
           "bin/placeholder/Core.dll": {}
-        }
-      },
-      "DataAccess/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "Core": "1.0.0",
-          "Entities": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.16"
-        },
-        "compile": {
-          "bin/placeholder/DataAccess.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/DataAccess.dll": {}
         }
       }
     }
@@ -5867,11 +5850,6 @@
       "type": "project",
       "path": "../Core/Core.csproj",
       "msbuildProject": "../Core/Core.csproj"
-    },
-    "DataAccess/1.0.0": {
-      "type": "project",
-      "path": "../DataAccess/DataAccess.csproj",
-      "msbuildProject": "../DataAccess/DataAccess.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5949,16 +5927,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  Entities -> Core -> Entities.",
-      "libraryId": "Entities",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  }
 }

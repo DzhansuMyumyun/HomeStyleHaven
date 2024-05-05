@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "Gr0ov8CnRXnej8K1wuY5/hlBbqbyqjZl9XQPQEDbSTizfxjFxXewteIB24x6QoxHUz8xyiebPrECRuLNEvBfBA==",
-  "success": false,
+  "dgSpecHash": "HhMyLZOAp/7A4Er2whtDXX4gGFJr7N1KerN/QVDeAuQZTcbIsLTuxnGzdRuXr99dVZ06C3dSIjYuCY5hvICFJg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dzhan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
@@ -103,15 +103,5 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  DataAccess -> Core -> DataAccess.",
-      "libraryId": "DataAccess",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

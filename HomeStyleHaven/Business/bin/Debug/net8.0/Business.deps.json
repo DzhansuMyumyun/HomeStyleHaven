@@ -320,11 +320,6 @@
           "System.Security.Principal.Windows": "4.5.0"
         }
       },
-      "NETStandard.Library/2.0.3": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.0.0"
-        }
-      },
       "Newtonsoft.Json/10.0.1": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
@@ -1008,7 +1003,7 @@
       },
       "Core/1.0.0": {
         "dependencies": {
-          "Entities": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.16"
         },
         "runtime": {
           "Core.dll": {}
@@ -1017,15 +1012,16 @@
       "DataAccess/1.0.0": {
         "dependencies": {
           "Core": "1.0.0",
-          "Entities": "1.0.0",
-          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.16",
-          "NETStandard.Library": "2.0.3"
+          "Entities": "1.0.0"
         },
         "runtime": {
           "DataAccess.dll": {}
         }
       },
       "Entities/1.0.0": {
+        "dependencies": {
+          "Core": "1.0.0"
+        },
         "runtime": {
           "Entities.dll": {}
         }
@@ -1240,13 +1236,6 @@
       "sha512": "sha512-+FWlwd//+Tt56316p00hVePBCouXyEzT86Jb3+AuRotTND0IYn0OO3obs1gnQEs/txEnt+rF2JBGLItTG+Be6A==",
       "path": "microsoft.win32.registry/4.5.0",
       "hashPath": "microsoft.win32.registry.4.5.0.nupkg.sha512"
-    },
-    "NETStandard.Library/2.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
-      "path": "netstandard.library/2.0.3",
-      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
     "Newtonsoft.Json/10.0.1": {
       "type": "package",

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "vDi4qjM3znPShaOr5Hj6pxzlmYHoq5uPo+BQQInHpnZCl7iJAO3mXEuEI53TYNIL9ee3Q+DofCaUi6NSYThvMQ==",
-  "success": false,
+  "dgSpecHash": "CB795zCvmX5iBUwvCOBMvmYaBKm0TwNyke6n2WNzn2XPq+RmsSoZxPeGX4vxtutoNNBv9Q1HdUtCUBqRhdJe4w==",
+  "success": true,
   "projectFilePath": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dzhan\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
@@ -103,15 +103,5 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Cycle detected. \r\n  Business -> DataAccess -> Core -> DataAccess.",
-      "libraryId": "DataAccess",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }
