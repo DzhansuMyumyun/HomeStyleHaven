@@ -12,10 +12,20 @@ using Microsoft.IdentityModel.Tokens;
 // Code to get all product names
 ProductManager productManager = new ProductManager(new EfProductDal());
 
-foreach (var product in productManager.GetProductDetails())
+var result = productManager.GetProductDetails();
+
+if (result.Success == true)
 {
-    Console.WriteLine(product.ProductName);
+    foreach (var product in result.Data)
+    {
+        Console.WriteLine(product.ProductName);
+    }
 }
+else
+{
+    Console.WriteLine(result.Message);
+}
+
 
 
 //foreach (var product in productManager.GetAllByCategory(1))

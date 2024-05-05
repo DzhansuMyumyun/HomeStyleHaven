@@ -1,28 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAFCAFE-74D2-4388-81C1-EF3DC6BF27C0}|Business\\Business.csproj|c:\\users\\dzhan\\onedrive\\documents\\github\\homestylehaven\\homestylehaven\\business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAFCAFE-74D2-4388-81C1-EF3DC6BF27C0}|Business\\Business.csproj|solutionrelative:business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D71E3329-140C-4402-8EF4-8B550F1384AA}|Core\\Core.csproj|c:\\users\\dzhan\\onedrive\\documents\\github\\homestylehaven\\homestylehaven\\core\\utilities\\results\\errorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71E3329-140C-4402-8EF4-8B550F1384AA}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\errorresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D71E3329-140C-4402-8EF4-8B550F1384AA}|Core\\Core.csproj|c:\\users\\dzhan\\onedrive\\documents\\github\\homestylehaven\\homestylehaven\\core\\utilities\\results\\successresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71E3329-140C-4402-8EF4-8B550F1384AA}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\successresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D71E3329-140C-4402-8EF4-8B550F1384AA}|Core\\Core.csproj|c:\\users\\dzhan\\onedrive\\documents\\github\\homestylehaven\\homestylehaven\\core\\utilities\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71E3329-140C-4402-8EF4-8B550F1384AA}|Core\\Core.csproj|solutionrelative:core\\utilities\\results\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAFCAFE-74D2-4388-81C1-EF3DC6BF27C0}|Business\\Business.csproj|c:\\users\\dzhan\\onedrive\\documents\\github\\homestylehaven\\homestylehaven\\business\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAFCAFE-74D2-4388-81C1-EF3DC6BF27C0}|Business\\Business.csproj|solutionrelative:business\\abstract\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -30,76 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ErrorResult.cs",
-              "DocumentMoniker": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Core\\Utilities\\Results\\ErrorResult.cs",
-              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\ErrorResult.cs",
-              "ToolTip": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Core\\Utilities\\Results\\ErrorResult.cs",
-              "RelativeToolTip": "Core\\Utilities\\Results\\ErrorResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:34:34.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Result.cs",
-              "DocumentMoniker": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Core\\Utilities\\Results\\Result.cs",
-              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\Result.cs",
-              "ToolTip": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Core\\Utilities\\Results\\Result.cs",
-              "RelativeToolTip": "Core\\Utilities\\Results\\Result.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAxwAwAAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:13:31.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SuccessResult.cs",
-              "DocumentMoniker": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Core\\Utilities\\Results\\SuccessResult.cs",
-              "RelativeDocumentMoniker": "Core\\Utilities\\Results\\SuccessResult.cs",
-              "ToolTip": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Core\\Utilities\\Results\\SuccessResult.cs",
-              "RelativeToolTip": "Core\\Utilities\\Results\\SuccessResult.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:27:01.691Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductManager.cs",
-              "DocumentMoniker": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Business\\Concrete\\ProductManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\ProductManager.cs",
-              "ToolTip": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Business\\Concrete\\ProductManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\ProductManager.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:08:06.787Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IProductService.cs",
-              "DocumentMoniker": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Business\\Abstract\\IProductService.cs",
-              "RelativeDocumentMoniker": "Business\\Abstract\\IProductService.cs",
-              "ToolTip": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Business\\Abstract\\IProductService.cs",
-              "RelativeToolTip": "Business\\Abstract\\IProductService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAAABQAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-05T14:07:39.724Z",
-              "EditorCaption": ""
             }
           ]
         }
