@@ -1,7 +1,11 @@
+using Autofac;
+using Autofac.Extensions.DependencyInjection;
 using Business.Abstract;
 using Business.Concrete;
+using Business.DependencyResolvers.Autofac;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
+using Microsoft.AspNetCore.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,9 +14,17 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 
 // Add interface references
-builder.Services.AddSingleton<IProductService, ProductManager>();   
-builder.Services.AddSingleton<IProductDal, EfProductDal>();
+//builder.Services.AddSingleton<IProductService, ProductManager>();   
+//builder.Services.AddSingleton<IProductDal, EfProductDal>();
 
+
+// Autofac setup
+var containerBuilder = new ContainerBuilder();
+containerBuilder.RegisterModule(new AutofacBusinessModule()); // Register your Autofac modules
+
+// Replace the default service provider with Autofac
+builder.Services.AddAutofac();
+builder.Host.UseServiceProviderFactory(new AutofacServiceProviderFactory());
 
 
 
@@ -21,6 +33,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
