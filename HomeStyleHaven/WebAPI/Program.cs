@@ -6,17 +6,17 @@ using Business.DependencyResolvers.Autofac;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-
 // Add interface references
-//builder.Services.AddSingleton<IProductService, ProductManager>();   
-//builder.Services.AddSingleton<IProductDal, EfProductDal>();
-
+builder.Services.AddSingleton<IProductService, ProductManager>();   
+builder.Services.AddSingleton<IProductDal, EfProductDal>();
 
 // Autofac setup
 var containerBuilder = new ContainerBuilder();

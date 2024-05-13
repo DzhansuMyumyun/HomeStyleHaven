@@ -19,7 +19,7 @@ namespace WebAPI.Controllers
 
         public ProductsController(IProductService productService)
         {
-            this._productService = productService;
+            _productService = productService;
         }
 
         [HttpGet("getall")]

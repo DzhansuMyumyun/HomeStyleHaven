@@ -70,3 +70,4 @@ C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bi
 C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\Autofac.Extensions.DependencyInjection.dll
 C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\Autofac.Extras.DynamicProxy.dll
 C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\FluentValidation.dll

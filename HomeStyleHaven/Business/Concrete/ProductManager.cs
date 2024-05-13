@@ -1,15 +1,20 @@
 ﻿using Business.Abstract;
+using Business.ValidationRules.FluentValidation;
 using Core.Constants;
 using Core.Utilities.Results;
+using FluentValidation;
 using DataAccess.Abstract;
 using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
 using Entities.DTO_s;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Core.CrossCuttingConcerns.Validation;
+using Core.Aspects.Autofac.Validation;
 
 namespace Business.Concrete
 {
@@ -19,19 +24,20 @@ namespace Business.Concrete
         //=> it's not good to new a class in a class
         //=> better to use an interface because we can use it in multiple places 
 
+        //validation => product
+        //business code => business validation
+
         IProductDal _productDal;
 
         public ProductManager(IProductDal product)
         {
-            this._productDal = product;
+            _productDal = product;
         }
 
+
+        [ValidationAspect(typeof(ProductValidator))]
         public IResult Add(Product product)
         {
-            if (product.ProductName.Length < 2)
-            {
-                return new ErrorResult(Messages.ProductNameInvalid);
-            }
 
             _productDal.Add(product);
             return new SuccessResult(Messages.ProductAdded);
