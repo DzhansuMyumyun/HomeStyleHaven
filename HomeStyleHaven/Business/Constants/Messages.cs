@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Constants
+namespace Business.Constants
 {
     public class Messages
     {
@@ -14,8 +14,9 @@ namespace Core.Constants
         public static string MaintenanceTime = "Maintenance Time";
         public static string ProductsListed = "The products are listed";
         public static string CategoriesListed = "The categories are listed";
+        public static string AuthorizationDenied = "The authorization is denied";
 
-        
+
 
 
 
