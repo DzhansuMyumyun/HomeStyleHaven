@@ -15,6 +15,9 @@ namespace Business.Constants
         public static string ProductsListed = "The products are listed";
         public static string CategoriesListed = "The categories are listed";
         public static string AuthorizationDenied = "The authorization is denied";
+        public static string ProductCountOfCategoryError = "Product Count Of Category Error";
+        public static string ProductNameAlreadyExists = "Product Name Already Exists";
+        public static string CategoryLimitExceded = "Category Limit Exceded";
 
 
 

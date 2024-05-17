@@ -1,0 +1,52 @@
+1.Entities in Core Project:
+	- Create the User, OperationClaim, and UserOperationClaim tables and entities in the Core project.
+
+2.Add TokenOptions to appsettings.json:
+	- Add the TokenOptions configuration to the appsettings.json file.
+
+3.Create HashingHelper Class:
+	- Create the HashingHelper class in the Core->Utilities->Security project.
+
+4.Create Encryption Classes:
+	- Create the following encryption classes in the Core->Utilities->Security project:
+		-SecurityKeyHelper.cs: Retrieve the key from appsettings.json.
+		-Install the Microsoft.IdentityModel.Tokens package.
+		-Create the SigningCredentialsHelper class.
+
+5.Create JWT Classes:
+	- Create the JWT-related classes in the Core->Utilities->Security project:
+		-AccessToken entities.
+		-ITokenHelper: Interface for the method to create a token.
+		-JWTHelper: Implementation to create the token.
+			-Install the Microsoft.Extensions.Configuration package.
+		-TokenOptions entities.
+
+6.Create ClaimPrincipalExtension:
+	- Create the ClaimPrincipalExtension class in the Core->Extensions project.
+
+7.Create SecuredOperation Class:
+	- Create the SecuredOperation class in the Business->BusinessAspects->Autofac project for role-based security.
+
+8.Create ServiceTool Class:
+	- Create the ServiceTool class in the Core->Utilities->IoC project.
+
+9.Create IUserDal Interface:
+	- Create the IUserDal interface in the DataAccess->Abstract project.
+
+10.Create EfUserDal Class:
+	- Create the EfUserDal class in the DataAccess->Concrete project.
+
+11.Create IUserService and IAuthService Interfaces:
+	- Create the IUserService and IAuthService interfaces.
+
+12.Create UserForLoginDto and UserForRegisterDto Entities:
+	- Create the UserForLoginDto and UserForRegisterDto entities.
+
+13.Create UserManager and AuthManager Classes:
+	- Create the UserManager and AuthManager classes.
+
+14.Create Controllers in WebAPI:
+	- Create the necessary controllers in the WebAPI project.
+
+15.Add Dependency Resolvers in AutofacBusinessModule:
+	- Add the necessary dependency resolvers in the AutofacBusinessModule.

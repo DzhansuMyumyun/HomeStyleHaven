@@ -3,6 +3,7 @@ using Autofac.Extensions.DependencyInjection;
 using Business.Abstract;
 using Business.Concrete;
 using Business.DependencyResolvers.Autofac;
+using Core.Utilities.Security.JWT;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using Microsoft.AspNetCore.Builder;
@@ -18,6 +19,13 @@ builder.Services.AddControllers();
 // Add interface references
 builder.Services.AddSingleton<IProductService, ProductManager>();
 builder.Services.AddSingleton<IProductDal, EfProductDal>();
+
+builder.Services.AddSingleton<IUserService, UserManager>();
+builder.Services.AddSingleton<IUserDal, EfUserDal>();
+
+builder.Services.AddSingleton<IAuthService, AuthManager>();
+builder.Services.AddSingleton<ITokenHelper, JwtHelper>();
+
 
 // Autofac setup
 var containerBuilder = new ContainerBuilder();

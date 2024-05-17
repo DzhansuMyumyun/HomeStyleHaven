@@ -71,3 +71,12 @@ C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bi
 C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\Autofac.Extras.DynamicProxy.dll
 C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\Castle.Core.dll
 C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\dzhan\OneDrive\Documents\GitHub\HomeStyleHaven\HomeStyleHaven\WebAPI\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll

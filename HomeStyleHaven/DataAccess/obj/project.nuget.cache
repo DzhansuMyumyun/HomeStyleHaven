@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sUfaR/yQvOsLDtHw4NjXtLQj/1xYgaRl+P+0uLPxMHuvOIBLrg2m4+Gt9yUL7fawJAFkCnMoMtrVk7KtLT9QFQ==",
+  "dgSpecHash": "EOAlOZlObF9E+C4lxUcBO68TEHzZ+rRLvZEiZb7v3ALcbQ4os0dh+6T4oJ4E/OHLHHKeBWGKrpChrGrrG84/GA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\dzhan\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.16\\microsoft.extensions.caching.memory.3.1.16.nupkg.sha512",
     "C:\\Users\\dzhan\\.nuget\\packages\\microsoft.extensions.configuration\\9.0.0-preview.3.24172.9\\microsoft.extensions.configuration.9.0.0-preview.3.24172.9.nupkg.sha512",
     "C:\\Users\\dzhan\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\9.0.0-preview.3.24172.9\\microsoft.extensions.configuration.abstractions.9.0.0-preview.3.24172.9.nupkg.sha512",
+    "C:\\Users\\dzhan\\.nuget\\packages\\microsoft.extensions.configuration.binder\\9.0.0-preview.3.24172.9\\microsoft.extensions.configuration.binder.9.0.0-preview.3.24172.9.nupkg.sha512",
     "C:\\Users\\dzhan\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "C:\\Users\\dzhan\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\dzhan\\.nuget\\packages\\microsoft.extensions.identity.core\\8.0.5\\microsoft.extensions.identity.core.8.0.5.nupkg.sha512",
