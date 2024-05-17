@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "TzThyQzyftFmYuoWKodFeCwtGJC4udMlDy6kBhT5fSKFOCaQuACA9W8sRGf/1opmPZ4dTCelc/Fb13zNWbZ1mg==",
+  "dgSpecHash": "oFOx1iBCF8K7Fxny6s4LZNqV/6J33MA9PpXmC0SBT5xB/YT71aWL1UDmtY11+ZNa7nZj2TbTdK+jlDrgbc6OZA==",
   "success": true,
   "projectFilePath": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
@@ -49,6 +49,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\dzhan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
+    "C:\\Users\\dzhan\\.nuget\\packages\\narchitecture.core.crosscuttingconcerns.logging\\1.0.1\\narchitecture.core.crosscuttingconcerns.logging.1.0.1.nupkg.sha512",
+    "C:\\Users\\dzhan\\.nuget\\packages\\narchitecture.core.crosscuttingconcerns.logging.abstraction\\1.0.1\\narchitecture.core.crosscuttingconcerns.logging.abstraction.1.0.1.nupkg.sha512",
     "C:\\Users\\dzhan\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

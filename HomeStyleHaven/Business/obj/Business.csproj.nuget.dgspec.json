@@ -183,6 +183,14 @@
               "target": "Package",
               "version": "[7.5.2, )"
             },
+            "NArchitecture.Core.CrossCuttingConcerns.Logging": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "NArchitecture.Core.CrossCuttingConcerns.Logging.Abstraction": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.3, )"

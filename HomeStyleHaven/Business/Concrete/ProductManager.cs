@@ -16,6 +16,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Entities.DTO_s;
+using Core.Utilities.Business;
 
 namespace Business.Concrete
 {
@@ -44,8 +46,6 @@ namespace Business.Concrete
         public IResult Add(Product product)
         {
 
-            //Aynı isimde ürün eklenemez
-            //Eğer mevcut kategori sayısı 15'i geçtiyse sisteme yeni ürün eklenemez. ve 
             IResult result = BusinessRules.Run(CheckIfProductNameExists(product.ProductName),
                 CheckIfProductCountOfCategoryCorrect(product.CategoryId), CheckIfCategoryLimitExceded());
 
@@ -72,19 +72,19 @@ namespace Business.Concrete
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(), Messages.ProductsListed);
         }
 
-        public IDataResult<List<Product>> GetAllByCategoryId(int id)
+        public IDataResult<List<Product>> GetAllByCategory(int id)
         {
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.CategoryId == id));
         }
 
         [CacheAspect]
-        //[PerformanceAspect(5)]
+        //[PerformanceAspect(5)] //inform me when the method works more then 5 second
         public IDataResult<Product> GetById(int productId)
         {
             return new SuccessDataResult<Product>(_productDal.Get(p => p.ProductId == productId));
         }
 
-        public IDataResult<List<Product>> GetByUnitPrice(decimal min, decimal max)
+        public IDataResult<List<Product>> GetAllByUnitPrice(decimal min, decimal max)
         {
             return new SuccessDataResult<List<Product>>(_productDal.GetAll(p => p.UnitPrice >= min && p.UnitPrice <= max));
         }
@@ -148,6 +148,7 @@ namespace Business.Concrete
 
             return new SuccessResult();
         }
+
 
         //[TransactionScopeAspect]
         public IResult AddTransactionalTest(Product product)

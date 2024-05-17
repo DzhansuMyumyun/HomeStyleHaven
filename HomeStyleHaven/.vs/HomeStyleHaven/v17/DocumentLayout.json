@@ -1,24 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAFCAFE-74D2-4388-81C1-EF3DC6BF27C0}|Business\\Business.csproj|c:\\users\\dzhan\\onedrive\\documents\\github\\homestylehaven\\homestylehaven\\business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAFCAFE-74D2-4388-81C1-EF3DC6BF27C0}|Business\\Business.csproj|solutionrelative:business\\concrete\\productmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAFCAFE-74D2-4388-81C1-EF3DC6BF27C0}|Business\\Business.csproj|c:\\users\\dzhan\\onedrive\\documents\\github\\homestylehaven\\homestylehaven\\business\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0AAFCAFE-74D2-4388-81C1-EF3DC6BF27C0}|Business\\Business.csproj|solutionrelative:business\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D71E3329-140C-4402-8EF4-8B550F1384AA}|Core\\Core.csproj|c:\\users\\dzhan\\onedrive\\documents\\github\\homestylehaven\\homestylehaven\\core\\utilities\\business\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D71E3329-140C-4402-8EF4-8B550F1384AA}|Core\\Core.csproj|solutionrelative:core\\utilities\\business\\businessrules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0AAFCAFE-74D2-4388-81C1-EF3DC6BF27C0}|Business\\Business.csproj|c:\\users\\dzhan\\onedrive\\documents\\github\\homestylehaven\\homestylehaven\\business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0AAFCAFE-74D2-4388-81C1-EF3DC6BF27C0}|Business\\Business.csproj|solutionrelative:business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,63 +9,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Business",
-              "DocumentMoniker": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Business\\Business.csproj",
-              "RelativeDocumentMoniker": "Business\\Business.csproj",
-              "ToolTip": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Business\\Business.csproj",
-              "RelativeToolTip": "Business\\Business.csproj",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABIAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-05-17T18:24:38.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BusinessRules.cs",
-              "DocumentMoniker": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Core\\Utilities\\Business\\BusinessRules.cs",
-              "RelativeDocumentMoniker": "Core\\Utilities\\Business\\BusinessRules.cs",
-              "ToolTip": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Core\\Utilities\\Business\\BusinessRules.cs",
-              "RelativeToolTip": "Core\\Utilities\\Business\\BusinessRules.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T18:23:30.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Messages.cs",
-              "DocumentMoniker": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Business\\Constants\\Messages.cs",
-              "RelativeDocumentMoniker": "Business\\Constants\\Messages.cs",
-              "ToolTip": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Business\\Constants\\Messages.cs",
-              "RelativeToolTip": "Business\\Constants\\Messages.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T18:17:58.864Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductManager.cs",
-              "DocumentMoniker": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Business\\Concrete\\ProductManager.cs",
-              "RelativeDocumentMoniker": "Business\\Concrete\\ProductManager.cs",
-              "ToolTip": "C:\\Users\\dzhan\\OneDrive\\Documents\\GitHub\\HomeStyleHaven\\HomeStyleHaven\\Business\\Concrete\\ProductManager.cs",
-              "RelativeToolTip": "Business\\Concrete\\ProductManager.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-17T18:15:35.695Z",
-              "EditorCaption": ""
             }
           ]
         }
