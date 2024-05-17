@@ -1,6 +1,5 @@
 ﻿using Business.Abstract;
 using Business.ValidationRules.FluentValidation;
-using Core.Constants;
 using Core.Utilities.Results;
 using FluentValidation;
 using DataAccess.Abstract;
@@ -15,6 +14,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Aspects.Autofac.Validation;
+using Business.Constants;
 
 namespace Business.Concrete
 {
